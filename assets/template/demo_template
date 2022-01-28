@@ -1,5 +1,5 @@
 <section style='width: 100%; height: 100%; overflow-y: auto;'>
-    <section style='display: flex; width: 100%; height: 100%; justify-content: center;'>
+    <section style='display: flex; width: 100%; height: 50%; justify-content: center;'>
         <div id='allocation-vs-office' style='width: 40%;'></div>
     </section>
 </section>
