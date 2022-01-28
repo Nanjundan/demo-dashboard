@@ -1,0 +1,47 @@
+{
+   "charts":[
+      {
+         "chart":{
+            "type":"column"
+         },
+         "combinedChart":{
+            "type":"column"
+         },
+         "colors":[
+            "rgb(9, 55, 178)",
+            "rgb(64, 68, 127)",
+            "rgb(22, 203, 188)"
+         ],
+         "title":{
+            "text":"Seats allocated vs Office"
+         },
+         "yAxis":{
+            "title":{
+               "text":"No. of seats"
+            }
+         },
+         "xAxis":{
+            "title":{
+               "text":"Office"
+            }
+         },
+         "plotOptions":{
+            "column":{
+               "dataLabels":{
+                  "enabled":true
+               },
+               "stacking":"normal"
+            }
+         },
+         "legend":{
+            "layout":"vertical",
+            "align":"right",
+            "verticalAlign":"middle"
+         },
+         "tooltip":{
+            "enabled":true
+         },
+         "identifier":"allocation-vs-office"
+      }
+   ]
+}
