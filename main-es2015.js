@@ -590,10 +590,10 @@ class AppComponent {
         this.http = http;
     }
     ngOnInit() {
-        this.http.downloadFile('../assets/configuration/demo_config').subscribe(data => {
+        this.http.downloadFile('assets/configuration/demo_config').subscribe(data => {
             this.dashboardConfig = data;
         });
-        this.http.downloadFile('../assets/template/demo_template').subscribe(data => {
+        this.http.downloadFile('assets/template/demo_template').subscribe(data => {
             this.dashboardTemplate = data;
         }, err => {
             this.dashboardTemplate = err.error.text;

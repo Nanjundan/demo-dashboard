@@ -1072,10 +1072,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ngOnInit() {
           var _this10 = this;
 
-          this.http.downloadFile('../assets/configuration/demo_config').subscribe(function (data) {
+          this.http.downloadFile('assets/configuration/demo_config').subscribe(function (data) {
             _this10.dashboardConfig = data;
           });
-          this.http.downloadFile('../assets/template/demo_template').subscribe(function (data) {
+          this.http.downloadFile('assets/template/demo_template').subscribe(function (data) {
             _this10.dashboardTemplate = data;
           }, function (err) {
             _this10.dashboardTemplate = err.error.text;
